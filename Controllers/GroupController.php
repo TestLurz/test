@@ -5,7 +5,11 @@ require_once '../DBConnection.php';
 if(!empty($_POST["nameGrp"])) {
 
     $nameGrp = $_POST["nameGrp"];
-    $query = "INSERT grps SET nam_grp = '$nameGrp' , version_grp='1' , num_message='0'";
+    $courseGrp = $_POST["courseGrp"];
+    $facultyGrp = $_POST["facultyGrp"];
+
+
+    $query = "INSERT grps SET nam_grp = '$nameGrp' , version_grp='1' , num_message='0' , course = '$courseGrp' , faculty = '$facultyGrp'";
 
     $db->query($query);
 

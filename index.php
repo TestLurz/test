@@ -68,12 +68,12 @@ $stmt = $db->query($query);
                         </div>
                         <div class="col-sm-6">
                             <select class="form-control" name="courseGrp">
-                                <option value="1">1 курс бакалавриат</option>
-                                <option value="2">2 курс бакалавриат</option>
-                                <option value="3">3 курс бакалавриат</option>
-                                <option value="4">4 курс бакалавриат</option>
-                                <option value="5">1 курс магистратура</option>
-                                <option value="6">2 курс магистратура</option>
+                                <option value="0">1 курс бакалавриат</option>
+                                <option value="1">2 курс бакалавриат</option>
+                                <option value="2">3 курс бакалавриат</option>
+                                <option value="3">4 курс бакалавриат</option>
+                                <option value="4">1 курс магистратура</option>
+                                <option value="5">2 курс магистратура</option>
                             </select>
                         </div>
                     </div>

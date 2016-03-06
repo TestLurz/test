@@ -10,7 +10,11 @@ $response = array();
 if (isset($_GET["grp"])) {
     $grp = $_GET['grp'];
 
-    $query = "SELECT * FROM lessons WHERE grp_id = '$grp'";
+    $query = "SELECT id FROM grps WHERE nam_grp = '$grp'";
+
+    $grpId = $db->query($query)->fetchAll(PDO::FETCH_ASSOC)[0]["id"];
+
+    $query = "SELECT * FROM lessons WHERE grp_id = '$grpId'";
 
 
 
@@ -60,4 +64,9 @@ if (isset($_GET["grp"])) {
 
         echo json_encode($response);
     }
+} else {
+    $response["success"] = 0;
+    $response["message"] = "No groups found";
+
+    echo json_encode($response);
 }

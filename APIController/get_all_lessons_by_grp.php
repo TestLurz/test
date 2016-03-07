@@ -30,12 +30,12 @@ if (isset($_GET["grp"])) {
 //        echo $grp;
         $idLesson = $lesson["id"] = $row["id"];
         $lesson["teacher"] = $row["teacher"];
-        $lesson["subGrp"] = $row["subGrp"];
-        $lesson["classRoom"] = $row["classRoom"];
+        $lesson["subGrp"] = $row["sub_group"];
+        $lesson["classRoom"] = $row["class_room"];
         $lesson["dateLesson"] = $row["dateLesson"];
-        $lesson["place"] = $row["place"];
-        $lesson["numberLesson"] = $row["numberLesson"];
-        $lesson["typeLesson"] = $row["typeLesson"];
+        $lesson["place"] = $row["place_lesson"];
+        $lesson["numberLesson"] = $row["number_lesson"];
+        $lesson["typeLesson"] = $row["type_lesson"];
 
         $lesson["dateLesson"] = array();
 

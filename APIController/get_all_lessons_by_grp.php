@@ -31,6 +31,7 @@ if (isset($_GET["grp"])) {
         $idLesson = $lesson["id"] = $row["id"];
         $lesson["teacher"] = $row["teacher"];
         $lesson["subGrp"] = $row["sub_group"];
+        $lesson["namSubj"] = $row["nam_subj"];
         $lesson["classRoom"] = $row["class_room"];
         $lesson["dateLesson"] = $row["dateLesson"];
         $lesson["place"] = $row["place_lesson"];

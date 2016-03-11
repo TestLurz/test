@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e40a722-8e48-4c68-8dc2-8b6237fa6e39" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php" afterPath="$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controllers/LessonController.php" afterPath="$PROJECT_DIR$/Controllers/LessonController.php" />
     </list>
     <ignored path="schedule.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,15 +55,39 @@
       <file leaf-file-name="get_all_lessons_by_grp.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38691795">
-              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.28159645">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <marker date="1457375408710" expanded="true" signature="209:224" placeholder="SELECT * FRO... lesson" />
-                <marker date="1457375408710" expanded="true" signature="209:229" placeholder="SELECT * FRO... lesson" />
-                <marker date="1457375408710" expanded="true" signature="209:251" placeholder="SELECT * FRO... lessons" />
-                <marker date="1457375408710" expanded="true" signature="340:385" placeholder="SELECT * FRO... lessons" />
-                <marker date="1457375408710" expanded="true" signature="1082:1136" placeholder="SELECT * FRO... dateLesson" />
+                <marker date="1457703178254" expanded="true" signature="209:224" placeholder="SELECT * FRO... lesson" />
+                <marker date="1457703178254" expanded="true" signature="209:229" placeholder="SELECT * FRO... lesson" />
+                <marker date="1457703178254" expanded="true" signature="209:251" placeholder="SELECT * FRO... lessons" />
+                <marker date="1457703178254" expanded="true" signature="340:553" placeholder="SELECT * FRO... lessons" />
+                <marker date="1457703178254" expanded="true" signature="1249:1303" placeholder="SELECT * FRO... dateLesson" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LessonController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/LessonController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.333334">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+              <folding>
+                <marker date="1457701134389" expanded="true" signature="857:908" placeholder="SELECT versi... grps" />
+                <marker date="1457701134389" expanded="true" signature="1031:1092" placeholder="UPDATE grps " />
+                <marker date="1457701134389" expanded="true" signature="1134:1168" placeholder="SELECT MAX(i... lessons" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lessonView.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessonView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.333333">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,13 +118,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Resources/css/styles.css" />
-        <option value="$PROJECT_DIR$/lessonView.php" />
         <option value="$PROJECT_DIR$/DBConnection.php" />
-        <option value="$PROJECT_DIR$/Controllers/LessonController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/APIController/get_all_groups.php" />
         <option value="$PROJECT_DIR$/Controllers/GroupController.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/lessonView.php" />
+        <option value="$PROJECT_DIR$/Controllers/LessonController.php" />
         <option value="$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php" />
       </list>
     </option>
@@ -114,9 +140,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -143,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,7 +218,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -256,10 +282,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="7" />
-    <editor active="false" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20066334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14151464" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -319,13 +345,25 @@
     <entry file="file://$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1457703178254" expanded="true" signature="209:224" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:229" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:251" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="340:553" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="1249:1303" placeholder="SELECT * FRO... dateLesson" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/LessonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1457375408710" expanded="true" signature="209:224" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457375408710" expanded="true" signature="209:229" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457375408710" expanded="true" signature="209:251" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457375408710" expanded="true" signature="340:385" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457375408710" expanded="true" signature="1082:1136" placeholder="SELECT * FRO... dateLesson" />
+            <marker date="1457701134389" expanded="true" signature="857:908" placeholder="SELECT versi... grps" />
+            <marker date="1457701134389" expanded="true" signature="1031:1092" placeholder="UPDATE grps " />
+            <marker date="1457701134389" expanded="true" signature="1134:1168" placeholder="SELECT MAX(i... lessons" />
           </folding>
         </state>
       </provider>
@@ -365,11 +403,143 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1457375408710" expanded="true" signature="209:224" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457375408710" expanded="true" signature="209:229" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457375408710" expanded="true" signature="209:251" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457375408710" expanded="true" signature="340:385" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457375408710" expanded="true" signature="1082:1136" placeholder="SELECT * FRO... dateLesson" />
+            <marker date="1457703178254" expanded="true" signature="209:224" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:229" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:251" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="340:553" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="1249:1303" placeholder="SELECT * FRO... dateLesson" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/GroupController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <marker date="1457208436413" expanded="true" signature="205:241" placeholder="INSERT INTO grps... " />
+            <marker date="1457208436413" expanded="true" signature="205:276" placeholder="INSERT INTO grps... " />
+            <marker date="1457208436413" expanded="true" signature="497:519" placeholder="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIController/get_all_groups.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <marker date="1457207755746" expanded="true" signature="228:273" placeholder="SELECT * FRO... grps" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1457703178254" expanded="true" signature="209:224" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:229" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:251" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="340:553" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="1249:1303" placeholder="SELECT * FRO... dateLesson" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/GroupController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <marker date="1457208436413" expanded="true" signature="205:241" placeholder="INSERT INTO grps... " />
+            <marker date="1457208436413" expanded="true" signature="205:276" placeholder="INSERT INTO grps... " />
+            <marker date="1457208436413" expanded="true" signature="497:519" placeholder="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIController/get_all_groups.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <marker date="1457207755746" expanded="true" signature="228:273" placeholder="SELECT * FRO... grps" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1457703178254" expanded="true" signature="209:224" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:229" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:251" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="340:553" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="1249:1303" placeholder="SELECT * FRO... dateLesson" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/GroupController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <marker date="1457208436413" expanded="true" signature="205:241" placeholder="INSERT INTO grps... " />
+            <marker date="1457208436413" expanded="true" signature="205:276" placeholder="INSERT INTO grps... " />
+            <marker date="1457208436413" expanded="true" signature="497:519" placeholder="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIController/get_all_groups.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <marker date="1457207755746" expanded="true" signature="228:273" placeholder="SELECT * FRO... grps" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1457703178254" expanded="true" signature="209:224" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:229" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:251" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="340:553" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="1249:1303" placeholder="SELECT * FRO... dateLesson" />
           </folding>
         </state>
       </provider>
@@ -409,11 +579,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="26" />
           <folding>
-            <marker date="1457375408710" expanded="true" signature="209:224" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457375408710" expanded="true" signature="209:229" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457375408710" expanded="true" signature="209:251" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457375408710" expanded="true" signature="340:385" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457375408710" expanded="true" signature="1082:1136" placeholder="SELECT * FRO... dateLesson" />
+            <marker date="1457703178254" expanded="true" signature="209:224" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:229" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:251" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="340:553" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="1249:1303" placeholder="SELECT * FRO... dateLesson" />
           </folding>
         </state>
       </provider>
@@ -505,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessonView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.518847">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/GroupController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.333333">
@@ -521,13 +684,6 @@
             <marker date="1457208436413" expanded="true" signature="205:276" placeholder="INSERT INTO grps... " />
             <marker date="1457208436413" expanded="true" signature="497:519" placeholder="INSERT INTO users... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/LessonController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48115298">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -543,20 +699,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/date_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.357058">
+          <caret line="327" column="16" selection-start-line="327" selection-start-column="14" selection-end-line="327" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessonView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/LessonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.333334">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+          <folding>
+            <marker date="1457701134389" expanded="true" signature="857:908" placeholder="SELECT versi... grps" />
+            <marker date="1457701134389" expanded="true" signature="1031:1092" placeholder="UPDATE grps " />
+            <marker date="1457701134389" expanded="true" signature="1134:1168" placeholder="SELECT MAX(i... lessons" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38691795">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.28159645">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1457375408710" expanded="true" signature="209:224" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457375408710" expanded="true" signature="209:229" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457375408710" expanded="true" signature="209:251" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457375408710" expanded="true" signature="340:385" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457375408710" expanded="true" signature="1082:1136" placeholder="SELECT * FRO... dateLesson" />
+            <marker date="1457703178254" expanded="true" signature="209:224" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:229" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457703178254" expanded="true" signature="209:251" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="340:553" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457703178254" expanded="true" signature="1249:1303" placeholder="SELECT * FRO... dateLesson" />
           </folding>
         </state>
       </provider>

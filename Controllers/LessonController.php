@@ -40,7 +40,8 @@ if (!empty($_POST["lesson"])){
     $idMax = $result->fetchAll(PDO::FETCH_ASSOC)[0]['num'];
 
     foreach($datesAfterExplode as $dates) {
-        $query = "INSERT dateLesson SET lesson_date	= '$dates' , lesson_id='$idMax'";
+        $d = "2016.".$dates;
+        $query = "INSERT dateLesson SET lesson_date	= '$d' , lesson_id='$idMax'";
         $db->query($query);
     }
 

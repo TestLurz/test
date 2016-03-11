@@ -14,8 +14,8 @@ if (isset($_GET["grp"])) {
 
     $grpId = $db->query($query)->fetchAll(PDO::FETCH_ASSOC)[0]["id"];
 
-    $query = "SELECT * FROM lessons WHERE grp_id = '$grpId'";
-
+    $query = "SELECT DISTINCT lessons.* FROM lessons , dateLesson WHERE grp_id = '$grpId' and lessons.id = dateLesson.lesson_id
+    and DAY(dateLesson.lesson_date) >= DAY(NOW()) and DAY(dateLesson.lesson_date) <= DAY(NOW()) + 7";
 
 
     $stmt = $db->query($query);

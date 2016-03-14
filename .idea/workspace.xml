@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e40a722-8e48-4c68-8dc2-8b6237fa6e39" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/APIController/get_version_group.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php" afterPath="$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php" />
     </list>
@@ -25,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GroupController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GroupController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controllers/GroupController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.33924612">
               <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding>
                 <marker date="1457208436413" expanded="true" signature="205:241" placeholder="INSERT INTO grps... " />
@@ -51,17 +52,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_all_lessons_by_grp.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="get_all_lessons_by_grp.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86031044">
-              <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+            <state vertical-scroll-proportion="-22.074074">
+              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="33" />
               <folding>
-                <marker date="1457945816153" expanded="true" signature="209:246" placeholder="SELECT * FRO... lesson" />
-                <marker date="1457945816153" expanded="true" signature="209:251" placeholder="SELECT * FRO... lesson" />
-                <marker date="1457945816153" expanded="true" signature="209:273" placeholder="SELECT * FRO... lessons" />
-                <marker date="1457945816153" expanded="true" signature="425:638" placeholder="SELECT * FRO... lessons" />
-                <marker date="1457945816153" expanded="true" signature="1334:1388" placeholder="SELECT * FRO... dateLesson" />
+                <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
+                <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
+                <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
+                <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
+                <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_version_group.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APIController/get_version_group.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.0">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <marker date="1457947949793" expanded="true" signature="132:196" placeholder="SELECT id , grps" />
               </folding>
             </state>
           </provider>
@@ -125,6 +138,7 @@
         <option value="$PROJECT_DIR$/lessonView.php" />
         <option value="$PROJECT_DIR$/Controllers/LessonController.php" />
         <option value="$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php" />
+        <option value="$PROJECT_DIR$/APIController/get_version_group.php" />
       </list>
     </option>
   </component>
@@ -281,7 +295,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18573798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -319,18 +333,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Controllers/LessonController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
-          <folding>
-            <marker date="1457701134389" expanded="true" signature="857:908" placeholder="SELECT versi... grps" />
-            <marker date="1457701134389" expanded="true" signature="1031:1092" placeholder="UPDATE grps " />
-            <marker date="1457701134389" expanded="true" signature="1134:1168" placeholder="SELECT MAX(i... lessons" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lessonView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -374,11 +376,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1457945816153" expanded="true" signature="209:246" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:251" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:273" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="425:638" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="1334:1388" placeholder="SELECT * FRO... dateLesson" />
+            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
           </folding>
         </state>
       </provider>
@@ -438,11 +440,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <marker date="1457945816153" expanded="true" signature="209:246" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:251" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:273" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="425:638" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="1334:1388" placeholder="SELECT * FRO... dateLesson" />
+            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
           </folding>
         </state>
       </provider>
@@ -494,11 +496,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1457945816153" expanded="true" signature="209:246" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:251" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:273" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="425:638" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="1334:1388" placeholder="SELECT * FRO... dateLesson" />
+            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
           </folding>
         </state>
       </provider>
@@ -538,11 +540,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1457945816153" expanded="true" signature="209:246" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:251" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:273" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="425:638" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="1334:1388" placeholder="SELECT * FRO... dateLesson" />
+            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
           </folding>
         </state>
       </provider>
@@ -582,11 +584,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1457945816153" expanded="true" signature="209:246" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:251" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:273" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="425:638" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="1334:1388" placeholder="SELECT * FRO... dateLesson" />
+            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
           </folding>
         </state>
       </provider>
@@ -626,11 +628,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1457945816153" expanded="true" signature="209:246" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:251" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:273" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="425:638" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="1334:1388" placeholder="SELECT * FRO... dateLesson" />
+            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
           </folding>
         </state>
       </provider>
@@ -670,11 +672,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="26" />
           <folding>
-            <marker date="1457945816153" expanded="true" signature="209:246" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:251" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:273" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="425:638" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="1334:1388" placeholder="SELECT * FRO... dateLesson" />
+            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
           </folding>
         </state>
       </provider>
@@ -766,18 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/GroupController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <marker date="1457208436413" expanded="true" signature="205:241" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="205:276" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="497:519" placeholder="INSERT INTO users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -820,16 +810,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APIController/get_version_group.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1457947949793" expanded="true" signature="132:196" placeholder="SELECT id , grps" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86031044">
-          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+        <state vertical-scroll-proportion="-22.074074">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="33" />
           <folding>
-            <marker date="1457945816153" expanded="true" signature="209:246" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:251" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457945816153" expanded="true" signature="209:273" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="425:638" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457945816153" expanded="true" signature="1334:1388" placeholder="SELECT * FRO... dateLesson" />
+            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
+            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
+            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/GroupController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33924612">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <marker date="1457208436413" expanded="true" signature="205:241" placeholder="INSERT INTO grps... " />
+            <marker date="1457208436413" expanded="true" signature="205:276" placeholder="INSERT INTO grps... " />
+            <marker date="1457208436413" expanded="true" signature="497:519" placeholder="INSERT INTO users... " />
           </folding>
         </state>
       </provider>

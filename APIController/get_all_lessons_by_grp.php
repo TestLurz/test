@@ -2,7 +2,6 @@
 
 require_once '../DBConnection.php';
 
-//$db = new PDO('mysql:host=localhost;dbname=schedule','root','3245897');
 
 $response = array();
 
@@ -10,16 +9,14 @@ $response = array();
 if (isset($_GET["grp"])) {
     $grp = $_GET['grp'];
 
-    $query = "SELECT id , version_grp AS vers FROM grps WHERE nam_grp = '$grp'";
+    $query = "SELECT id  FROM grps WHERE nam_grp = '$grp'";
 
     $result = $db->query($query)->fetchAll(PDO::FETCH_ASSOC);
 
     $grpId = $result[0]["id"];
 
-    $versionGrp = $result[0]["vers"];
 
-    $query = "SELECT DISTINCT lessons.* FROM lessons , dateLesson WHERE grp_id = '$grpId' and lessons.id = dateLesson.lesson_id
-    and DAY(dateLesson.lesson_date) >= DAY(NOW()) and DAY(dateLesson.lesson_date) <= DAY(NOW()) + 7";
+    $query = "SELECT * FROM lessons WHERE grp_id = '$grpId'";
 
 
     $stmt = $db->query($query);
@@ -62,7 +59,6 @@ if (isset($_GET["grp"])) {
 
     if($i > 0) {
         $response["success"] = 1;
-        $response["version"] = $versionGrp;
         echo json_encode($response);
     } else {
         $response["success"] = 0;

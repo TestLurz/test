@@ -10,9 +10,13 @@ $response = array();
 if (isset($_GET["grp"])) {
     $grp = $_GET['grp'];
 
-    $query = "SELECT id FROM grps WHERE nam_grp = '$grp'";
+    $query = "SELECT id , version_grp AS vers FROM grps WHERE nam_grp = '$grp'";
 
-    $grpId = $db->query($query)->fetchAll(PDO::FETCH_ASSOC)[0]["id"];
+    $result = $db->query($query)->fetchAll(PDO::FETCH_ASSOC);
+
+    $grpId = $result[0]["id"];
+
+    $versionGrp = $result[0]["vers"];
 
     $query = "SELECT DISTINCT lessons.* FROM lessons , dateLesson WHERE grp_id = '$grpId' and lessons.id = dateLesson.lesson_id
     and DAY(dateLesson.lesson_date) >= DAY(NOW()) and DAY(dateLesson.lesson_date) <= DAY(NOW()) + 7";
@@ -58,6 +62,7 @@ if (isset($_GET["grp"])) {
 
     if($i > 0) {
         $response["success"] = 1;
+        $response["version"] = $versionGrp;
         echo json_encode($response);
     } else {
         $response["success"] = 0;

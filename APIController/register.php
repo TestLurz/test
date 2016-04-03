@@ -14,8 +14,11 @@ if( isset($_POST["group"]) && isset($_POST["regId"]) ) {
 
     $grpId = $result[0]["id"];
 
-    $query = "INSERT gcm_users SET gcm_regid = '$regId', grp_id = '$grpId'";
-
+    if (checkRegistrationId($regId, $db) == 0 ) {
+        $query = "INSERT gcm_users SET gcm_regid = '$regId', grp_id = '$grpId'";
+    } else {
+        $query = "UPDATE gcm_users SET grp_id = '$grpId' WHERE gcm_regid = '$regId'";
+    }
     $db->query($query);
 
     $json["success"] = 1;
@@ -29,4 +32,9 @@ if( isset($_POST["group"]) && isset($_POST["regId"]) ) {
     echo json_encode($json);
 }
 
-//echo "dfdsf";
+
+function checkRegistrationId($regId,PDO $db) {
+    $query = "SELECT COUNT(*) FROM `gcm_users` WHERE gcm_regid= '$regId'";
+    $result = $db->query($query)->fetchAll(PDO::FETCH_ASSOC);
+    return $result[0]["COUNT(*)"];
+}

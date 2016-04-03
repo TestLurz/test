@@ -18,8 +18,8 @@ if(isset($_POST["message"]) && $_POST["message"] != "" && isset($_POST["group"])
 
     $db->query($query);
 
-    $query = "SELECT DISTINCT gcm_regid FROM gcm_users WHERE grp_id = (SELECT DISTINCT grp_id FROM gcm_users WHERE gcm_regid = '$regId' )";
-//    $query = "SELECT gcm_regid FROM gcm_users WHERE gcm_regid <> '$regId' AND grp_id = (SELECT grp_id FROM gcm_users WHERE gcm_regid = '$regId' )";
+//    $query = "SELECT DISTINCT gcm_regid FROM gcm_users WHERE grp_id = (SELECT DISTINCT grp_id FROM gcm_users WHERE gcm_regid = '$regId' )";
+    $query = "SELECT gcm_regid FROM gcm_users WHERE gcm_regid <> '$regId' AND grp_id = (SELECT grp_id FROM gcm_users WHERE gcm_regid = '$regId' )";
 
     $result = $db->query($query)->fetchAll(PDO::FETCH_ASSOC);
 //

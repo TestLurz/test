@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e40a722-8e48-4c68-8dc2-8b6237fa6e39" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3e40a722-8e48-4c68-8dc2-8b6237fa6e39" name="Default" comment="" />
     <ignored path="schedule.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -52,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_message.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="post_message.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APIController/post_message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.666666">
+            <state vertical-scroll-proportion="0.8226691">
               <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <marker date="1459680124892" expanded="true" signature="294:339" placeholder="SELECT id FR... grps" />
@@ -68,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBConnection.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DBConnection.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DBConnection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09872029">
+            <state vertical-scroll-proportion="-2.0">
               <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
               <folding />
             </state>
@@ -91,8 +88,8 @@
       <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIController/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6666665">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state vertical-scroll-proportion="-0.9259259">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <marker date="1459680104739" expanded="true" signature="197:242" placeholder="SELECT id FR... grps" />
               </folding>
@@ -801,35 +798,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APIController/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <marker date="1459680104739" expanded="true" signature="197:242" placeholder="SELECT id FR... grps" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GCM/GCM.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6666667">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APIController/post_message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.666666">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <marker date="1459680124892" expanded="true" signature="294:339" placeholder="SELECT id FR... grps" />
-            <marker date="1459680124892" expanded="true" signature="573:696" placeholder="SELECT id FR... grps" />
-            <marker date="1459680124892" expanded="true" signature="630:694" placeholder="SELECT grp_i... gcm_users" />
-            <marker date="1459680124892" expanded="true" signature="715:846" placeholder="SELECT gcm_r... gcm_users" />
-            <marker date="1459680124892" expanded="true" signature="789:844" placeholder="SELECT grp_i... gcm_users" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,9 +816,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DBConnection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09872029">
+        <state vertical-scroll-proportion="-2.0">
           <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIController/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9259259">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1459680104739" expanded="true" signature="197:242" placeholder="SELECT id FR... grps" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIController/post_message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8226691">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <marker date="1459680124892" expanded="true" signature="294:339" placeholder="SELECT id FR... grps" />
+            <marker date="1459680124892" expanded="true" signature="573:696" placeholder="SELECT id FR... grps" />
+            <marker date="1459680124892" expanded="true" signature="630:694" placeholder="SELECT grp_i... gcm_users" />
+            <marker date="1459680124892" expanded="true" signature="715:846" placeholder="SELECT gcm_r... gcm_users" />
+            <marker date="1459680124892" expanded="true" signature="789:844" placeholder="SELECT grp_i... gcm_users" />
+          </folding>
         </state>
       </provider>
     </entry>

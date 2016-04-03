@@ -1,6 +1,7 @@
 <?php
 
 require_once "../DBConnection.php";
+include_once '../GCM/GCM.php';
 
 if(isset($_POST["message"]) && $_POST["message"] != "" && isset($_POST["group"]) && isset($_POST["regId"])) {
     $message = $_POST["message"];
@@ -17,15 +18,16 @@ if(isset($_POST["message"]) && $_POST["message"] != "" && isset($_POST["group"])
 
     $db->query($query);
 
-    $query = "SELECT gcm_regid FROM gcm_users WHERE gcm_regid <> '$regId' AND grp_id = (SELECT grp_id FROM gcm_users WHERE gcm_regid = '$regId' )";
+    $query = "SELECT DISTINCT gcm_regid FROM gcm_users WHERE grp_id = (SELECT DISTINCT grp_id FROM gcm_users WHERE gcm_regid = '$regId' )";
+//    $query = "SELECT gcm_regid FROM gcm_users WHERE gcm_regid <> '$regId' AND grp_id = (SELECT grp_id FROM gcm_users WHERE gcm_regid = '$regId' )";
 
     $result = $db->query($query)->fetchAll(PDO::FETCH_ASSOC);
-
+//
     $gcm_regids = $result["gcm_regid"];
 
     $registration_ids = array($gcm_regids);
     $message = array("message" => $message);
-
+//
     $gcm = new GCM();
     $gcm->send_notification($registration_ids, $message);
     echo $result;

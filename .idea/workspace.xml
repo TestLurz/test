@@ -4,7 +4,7 @@
     <list default="true" id="3e40a722-8e48-4c68-8dc2-8b6237fa6e39" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIController/post_message.php" afterPath="$PROJECT_DIR$/APIController/post_message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIController/register.php" afterPath="$PROJECT_DIR$/APIController/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GCM/GCM.php" afterPath="$PROJECT_DIR$/GCM/GCM.php" />
     </list>
     <ignored path="schedule.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +46,8 @@
       <file leaf-file-name="GCM.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GCM/GCM.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6666667">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state vertical-scroll-proportion="-8.740741">
+              <caret line="15" column="190" selection-start-line="15" selection-start-column="190" selection-end-line="15" selection-end-column="190" />
               <folding />
             </state>
           </provider>
@@ -56,14 +56,14 @@
       <file leaf-file-name="post_message.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIController/post_message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.0">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state vertical-scroll-proportion="-21.333334">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
-                <marker date="1459683751225" expanded="true" signature="294:339" placeholder="SELECT id FR... grps" />
-                <marker date="1459683751225" expanded="true" signature="575:698" placeholder="SELECT id FR... grps" />
-                <marker date="1459683751225" expanded="true" signature="632:696" placeholder="SELECT grp_i... gcm_users" />
-                <marker date="1459683751225" expanded="true" signature="715:846" placeholder="SELECT gcm_r... gcm_users" />
-                <marker date="1459683751225" expanded="true" signature="789:844" placeholder="SELECT grp_i... gcm_users" />
+                <marker date="1459759108659" expanded="true" signature="323:368" placeholder="SELECT id FR... grps" />
+                <marker date="1459759108659" expanded="true" signature="602:725" placeholder="SELECT id FR... grps" />
+                <marker date="1459759108659" expanded="true" signature="659:723" placeholder="SELECT grp_i... gcm_users" />
+                <marker date="1459759108659" expanded="true" signature="744:875" placeholder="SELECT gcm_r... gcm_users" />
+                <marker date="1459759108659" expanded="true" signature="818:873" placeholder="SELECT grp_i... gcm_users" />
               </folding>
             </state>
           </provider>
@@ -79,27 +79,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6666665">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIController/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11973392">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <marker date="1459684792113" expanded="true" signature="197:242" placeholder="SELECT id FR... grps" />
                 <marker date="1459684792113" expanded="true" signature="504:569" placeholder="UPDATE gcm_u... " />
                 <marker date="1459684792113" expanded="true" signature="863:879" placeholder="SELECT COUNT... gcm_users" />
                 <marker date="1459684792113" expanded="true" signature="863:921" placeholder="SELECT COUNT... gcm_users" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15964523">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,11 +129,11 @@
         <option value="$PROJECT_DIR$/APIController/get_all_messages.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/DBConnection.php" />
-        <option value="$PROJECT_DIR$/GCM/GCM.php" />
         <option value="$PROJECT_DIR$/APIController/get_all_groups.php" />
-        <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/APIController/post_message.php" />
         <option value="$PROJECT_DIR$/APIController/register.php" />
+        <option value="$PROJECT_DIR$/APIController/post_message.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/GCM/GCM.php" />
       </list>
     </option>
   </component>
@@ -177,6 +177,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,8 +255,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -323,7 +323,7 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19845219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.112769485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21214713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -364,13 +364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -393,11 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <marker date="1457208436413" expanded="true" signature="205:241" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="205:276" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="497:519" placeholder="INSERT INTO users... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -405,9 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding>
-            <marker date="1459680074111" expanded="true" signature="228:273" placeholder="SELECT * FRO... grps" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -415,13 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -437,11 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <marker date="1457208436413" expanded="true" signature="205:241" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="205:276" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="497:519" placeholder="INSERT INTO users... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -449,9 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding>
-            <marker date="1459680074111" expanded="true" signature="228:273" placeholder="SELECT * FRO... grps" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -459,13 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -481,11 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <marker date="1457208436413" expanded="true" signature="205:241" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="205:276" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="497:519" placeholder="INSERT INTO users... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -493,9 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding>
-            <marker date="1459680074111" expanded="true" signature="228:273" placeholder="SELECT * FRO... grps" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,13 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,11 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <marker date="1457208436413" expanded="true" signature="205:241" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="205:276" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="497:519" placeholder="INSERT INTO users... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,9 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding>
-            <marker date="1459680074111" expanded="true" signature="228:273" placeholder="SELECT * FRO... grps" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,13 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -569,11 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <marker date="1457208436413" expanded="true" signature="205:241" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="205:276" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="497:519" placeholder="INSERT INTO users... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,9 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-          <folding>
-            <marker date="1459680074111" expanded="true" signature="228:273" placeholder="SELECT * FRO... grps" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,13 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,11 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1457208436413" expanded="true" signature="205:241" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="205:276" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="497:519" placeholder="INSERT INTO users... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,26 +622,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1175166">
           <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-          <folding>
-            <marker date="1457947466856" expanded="true" signature="135:151" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:156" placeholder="SELECT * FRO... lesson" />
-            <marker date="1457947466856" expanded="true" signature="135:178" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="292:337" placeholder="SELECT * FRO... lessons" />
-            <marker date="1457947466856" expanded="true" signature="1033:1087" placeholder="SELECT * FRO... dateLesson" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/9a5ec426/a8d2d0de-ce7a-4d14-a431-9e0e4eddea26/schedule.message">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -736,10 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29933482">
           <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <marker date="1458753111245" expanded="true" signature="139:184" placeholder="SELECT id FR... grps" />
-            <marker date="1458753111245" expanded="true" signature="297:342" placeholder="SELECT * FRO... message" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,11 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3333334">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="35" />
-          <folding>
-            <marker date="1457208436413" expanded="true" signature="205:241" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="205:276" placeholder="INSERT INTO grps... " />
-            <marker date="1457208436413" expanded="true" signature="497:519" placeholder="INSERT INTO users... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34257206">
           <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.444445">
           <caret line="298" column="9" selection-start-line="298" selection-start-column="9" selection-end-line="298" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,9 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41906872">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1457947949793" expanded="true" signature="132:196" placeholder="SELECT id , grps" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34257206">
           <caret line="2262" column="9" selection-start-line="2262" selection-start-column="9" selection-end-line="2262" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,25 +691,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.039911307">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIController/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1459680074111" expanded="true" signature="228:273" placeholder="SELECT * FRO... grps" />
+            <marker date="1459684792113" expanded="true" signature="197:242" placeholder="SELECT id FR... grps" />
+            <marker date="1459684792113" expanded="true" signature="504:569" placeholder="UPDATE gcm_u... " />
+            <marker date="1459684792113" expanded="true" signature="863:879" placeholder="SELECT COUNT... gcm_users" />
+            <marker date="1459684792113" expanded="true" signature="863:921" placeholder="SELECT COUNT... gcm_users" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GCM/GCM.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,28 +717,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/APIController/post_message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        <state vertical-scroll-proportion="-21.333334">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
-            <marker date="1459683751225" expanded="true" signature="294:339" placeholder="SELECT id FR... grps" />
-            <marker date="1459683751225" expanded="true" signature="575:698" placeholder="SELECT id FR... grps" />
-            <marker date="1459683751225" expanded="true" signature="632:696" placeholder="SELECT grp_i... gcm_users" />
-            <marker date="1459683751225" expanded="true" signature="715:846" placeholder="SELECT gcm_r... gcm_users" />
-            <marker date="1459683751225" expanded="true" signature="789:844" placeholder="SELECT grp_i... gcm_users" />
+            <marker date="1459759108659" expanded="true" signature="323:368" placeholder="SELECT id FR... grps" />
+            <marker date="1459759108659" expanded="true" signature="602:725" placeholder="SELECT id FR... grps" />
+            <marker date="1459759108659" expanded="true" signature="659:723" placeholder="SELECT grp_i... gcm_users" />
+            <marker date="1459759108659" expanded="true" signature="744:875" placeholder="SELECT gcm_r... gcm_users" />
+            <marker date="1459759108659" expanded="true" signature="818:873" placeholder="SELECT grp_i... gcm_users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APIController/register.php">
+    <entry file="file://$PROJECT_DIR$/GCM/GCM.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11973392">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1459684792113" expanded="true" signature="197:242" placeholder="SELECT id FR... grps" />
-            <marker date="1459684792113" expanded="true" signature="504:569" placeholder="UPDATE gcm_u... " />
-            <marker date="1459684792113" expanded="true" signature="863:879" placeholder="SELECT COUNT... gcm_users" />
-            <marker date="1459684792113" expanded="true" signature="863:921" placeholder="SELECT COUNT... gcm_users" />
-          </folding>
+        <state vertical-scroll-proportion="-8.740741">
+          <caret line="15" column="190" selection-start-line="15" selection-start-column="190" selection-end-line="15" selection-end-column="190" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15964523">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

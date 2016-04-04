@@ -10,10 +10,10 @@ class GCM
         include_once "../DBConnection.php";
 
         // Set POST variables
-        $url = 'https://android.googleapis.com/gcm/send';
+        $url = 'https://gcm-http.googleapis.com/gcm/send';
 
         $fields = array(
-            'registration_ids' => $registration_ids,
+            'registration_ids' => ["fFfYdjGTSWY:APA91bHINk0h_c57QHDr2lcQ3XPqeVDQJf2jjpaApjP7pZvKM0KoB48B9qB5L9mo_RiKmpqmMfrehCzGUbRr59ijtgYAzee98gM6RVX5-uCNMC6LNZ6ItKMkQ5_BJg2hdKE_7boN96X5"],
             'data' => $message,
         );
 

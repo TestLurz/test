@@ -4,16 +4,15 @@ require_once "../DBConnection.php";
 
 $response = array();
 
-if (isset($_GET["group"])) {
-    $group = $_GET["group"];
+if (isset($_GET["regId"])) {
+    $regId = $_GET["regId"];
 
-    $query = "SELECT id  FROM grps WHERE nam_grp = '$group'";
+    $user = userIdByRegId($regId, $db);
 
-    $result = $db->query($query)->fetchAll(PDO::FETCH_ASSOC);
+    $userId = $user["id"];
+    $grpId = $user["grp_id"];
 
-    $grpId = $result[0]["id"];
-
-    $query = "SELECT * FROM message WHERE id_grp = '$grpId'";
+    $query = "SELECT * FROM message WHERE user_id <> '$userId' and grp_id = '$grpId' ";
 
     $result = $db->query($query);
 
@@ -43,4 +42,10 @@ if (isset($_GET["group"])) {
     }
 
 
+}
+
+function userIdByRegId($regId,PDO $db) {
+    $query = "SELECT id , grp_id FROM gcm_users WHERE gcm_regid = '$regId'";
+    $result = $db->query($query)->fetchAll(PDO::FETCH_ASSOC);
+    return $result[0];
 }

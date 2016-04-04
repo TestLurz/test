@@ -4,7 +4,7 @@ require_once "../DBConnection.php";
 include_once '../GCM/GCM.php';
 
 /**
- * @TODO изменить POST GET
+ * @TODO изменить POST GET Trigger
  */
 
 if(isset($_GET["message"]) && $_GET["message"] != "" && isset($_GET["group"]) && isset($_GET["regId"])) {
@@ -18,7 +18,9 @@ if(isset($_GET["message"]) && $_GET["message"] != "" && isset($_GET["group"]) &&
 
     $grpId = $result[0]["id"];
 
-    $query = "INSERT message SET text_msg = '$message', date_sent = NOW(), id_grp = '$grpId'";
+    $userId = userIdByRegId($regId, $db);
+
+    $query = "INSERT message SET text_msg = '$message', date_sent = NOW(), user_id = '$userId', grp_id='$grpId' ";
 
     $db->query($query);
 
@@ -36,4 +38,12 @@ if(isset($_GET["message"]) && $_GET["message"] != "" && isset($_GET["group"]) &&
     $gcm->send_notification($registration_ids, $message);
 //    print_r( $result);
 
+}
+
+
+function userIdByRegId($regId,PDO $db) {
+
+    $query = "SELECT id FROM gcm_users WHERE gcm_regid = '$regId'";
+    $result = $db->query($query)->fetchAll(PDO::FETCH_ASSOC);
+    return $result[0]["id"];
 }

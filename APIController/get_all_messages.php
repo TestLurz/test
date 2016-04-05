@@ -12,7 +12,7 @@ if (isset($_GET["regId"])) {
     $userId = $user["id"];
     $grpId = $user["grp_id"];
 
-    $query = "SELECT * FROM message WHERE user_id <> '$userId' and grp_id = '$grpId' ";
+    $query = "SELECT * FROM message WHERE user_id <> '$userId' and grp_id = '$grpId' ORDER BY id DESC";
 
     $result = $db->query($query);
 

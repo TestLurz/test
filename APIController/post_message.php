@@ -7,10 +7,10 @@ include_once '../GCM/GCM.php';
  * @TODO изменить POST GET Trigger
  */
 
-if(isset($_GET["message"]) && $_GET["message"] != "" && isset($_GET["group"]) && isset($_GET["regId"])) {
-    $message = $_GET["message"];
-    $group = $_GET["group"];
-    $regId = $_GET["regId"];
+if(isset($_POST["message"]) && $_POST["message"] != "" && isset($_POST["group"]) && isset($_POST["regId"])) {
+    $message = $_POST["message"];
+    $group = $_POST["group"];
+    $regId = $_POST["regId"];
 
     $query = "SELECT id  FROM grps WHERE nam_grp = '$group'";
 
@@ -24,19 +24,19 @@ if(isset($_GET["message"]) && $_GET["message"] != "" && isset($_GET["group"]) &&
 
     $db->query($query);
 
-    $query = "SELECT DISTINCT gcm_regid FROM gcm_users WHERE grp_id = (SELECT DISTINCT grp_id FROM gcm_users WHERE gcm_regid = '$regId' )";
-//    $query = "SELECT gcm_regid FROM gcm_users WHERE gcm_regid <> '$regId' AND grp_id = (SELECT grp_id FROM gcm_users WHERE gcm_regid = '$regId' )";
+//    $query = "SELECT DISTINCT gcm_regid FROM gcm_users WHERE grp_id = (SELECT DISTINCT grp_id FROM gcm_users WHERE gcm_regid = '$regId' )";
+    $query = "SELECT gcm_regid FROM gcm_users WHERE gcm_regid <> '$regId' AND grp_id = (SELECT grp_id FROM gcm_users WHERE gcm_regid = '$regId' )";
 
     $result = $db->query($query)->fetchAll(PDO::FETCH_ASSOC);
-//
-    $gcm_regids = $result["gcm_regid"];
-
-    $registration_ids = array($gcm_regids);
     $message = array("message" => $message);
-//
+
+    $gcm_regIds = array();
+    for($i = 0; $i < count($result); $i++) {
+        $gcm_regIds[] = $result[$i]["gcm_regid"];
+    }
+
     $gcm = new GCM();
-    $gcm->send_notification($registration_ids, $message);
-//    print_r( $result);
+    $gcm->send_notification($gcm_regIds, $message);
 
 }
 

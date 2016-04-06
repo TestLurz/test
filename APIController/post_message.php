@@ -3,9 +3,6 @@
 require_once "../DBConnection.php";
 include_once '../GCM/GCM.php';
 
-/**
- * @TODO изменить POST GET Trigger
- */
 
 if(isset($_POST["message"]) && $_POST["message"] != "" && isset($_POST["group"]) && isset($_POST["regId"])) {
     $message = $_POST["message"];

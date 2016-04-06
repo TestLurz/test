@@ -11,6 +11,8 @@ $stmt = $db->query($query);
     <script type="text/javascript" src="Resources/bootstrap/js/bootstrap.min.js"></script>
     <link href="Resources/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="Resources/css/styles.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="Resources/js/scripts.js" type="text/javascript"></script>
 </head>
 
 <body>

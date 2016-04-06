@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e40a722-8e48-4c68-8dc2-8b6237fa6e39" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIController/post_message.php" afterPath="$PROJECT_DIR$/APIController/post_message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GCM/GCM.php" afterPath="$PROJECT_DIR$/GCM/GCM.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controllers/LessonController.php" afterPath="$PROJECT_DIR$/Controllers/LessonController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/css/styles.css" afterPath="$PROJECT_DIR$/Resources/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lessonView.php" afterPath="$PROJECT_DIR$/lessonView.php" />
     </list>
     <ignored path="schedule.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,59 +47,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="get_all_messages.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APIController/get_all_messages.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state vertical-scroll-proportion="11.259259">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
               <folding>
-                <marker date="1459870552419" expanded="true" signature="238:286" placeholder="SELECT * FRO... message" />
-                <marker date="1459870552419" expanded="true" signature="238:308" placeholder="SELECT * FRO... message" />
-                <marker date="1459870552419" expanded="true" signature="238:325" placeholder="SELECT * FRO... message" />
-                <marker date="1459870552419" expanded="true" signature="938:998" placeholder="SELECT id , gcm_users" />
+                <marker date="1459960522615" expanded="true" signature="50:68" placeholder="SELECT * FRO... grps" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GCM.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GCM/GCM.php">
+      <file leaf-file-name="lessonView.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessonView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.0">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state vertical-scroll-proportion="-10.666667">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_message.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/APIController/post_message.php">
+      <file leaf-file-name="LessonController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Controllers/LessonController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.518847">
-              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.32150775">
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
               <folding>
-                <marker date="1459880972872" expanded="true" signature="338:383" placeholder="SELECT id FR... grps" />
-                <marker date="1459880972872" expanded="true" signature="682:805" placeholder="SELECT id FR... grps" />
-                <marker date="1459880972872" expanded="true" signature="739:803" placeholder="SELECT grp_i... gcm_users" />
-                <marker date="1459880972872" expanded="true" signature="822:953" placeholder="SELECT gcm_r... gcm_users" />
-                <marker date="1459880972872" expanded="true" signature="896:951" placeholder="SELECT grp_i... gcm_users" />
-                <marker date="1459880972872" expanded="true" signature="1329:1380" placeholder="SELECT id FR... gcm_users" />
+                <marker date="1459963163771" expanded="true" signature="1016:1067" placeholder="SELECT versi... grps" />
+                <marker date="1459963163771" expanded="true" signature="1202:1263" placeholder="UPDATE grps " />
+                <marker date="1459963163771" expanded="true" signature="1313:1347" placeholder="SELECT MAX(i... lessons" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APIController/register.php">
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
+              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding>
-                <marker date="1459684792113" expanded="true" signature="197:242" placeholder="SELECT id FR... grps" />
-                <marker date="1459684792113" expanded="true" signature="504:569" placeholder="UPDATE gcm_u... " />
-                <marker date="1459684792113" expanded="true" signature="863:879" placeholder="SELECT COUNT... gcm_users" />
-                <marker date="1459684792113" expanded="true" signature="863:921" placeholder="SELECT COUNT... gcm_users" />
+                <marker date="1459962964108" expanded="true" signature="626:753" placeholder="..." />
+                <marker date="1459962964108" expanded="true" signature="626:754" placeholder="..." />
+                <marker date="1459962964108" expanded="true" signature="816:939" placeholder="..." />
+                <marker date="1459962964108" expanded="true" signature="1001:1127" placeholder="..." />
+                <marker date="1459962964108" expanded="true" signature="1340:1473" placeholder="..." />
+                <marker date="1459962964108" expanded="true" signature="1535:1664" placeholder="..." />
+                <marker date="1459962964108" expanded="true" signature="1726:1856" placeholder="..." />
+                <marker date="1459962964108" expanded="true" signature="2070:2205" placeholder="..." />
+                <marker date="1459962964108" expanded="true" signature="2267:2396" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-28.666666">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,6 +119,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -114,10 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Resources/css/styles.css" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/lessonView.php" />
-        <option value="$PROJECT_DIR$/Controllers/LessonController.php" />
         <option value="$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php" />
         <option value="$PROJECT_DIR$/APIController/get_version_group.php" />
         <option value="$PROJECT_DIR$/Controllers/GroupController.php" />
@@ -129,6 +140,12 @@
         <option value="$PROJECT_DIR$/APIController/get_all_messages.php" />
         <option value="$PROJECT_DIR$/GCM/GCM.php" />
         <option value="$PROJECT_DIR$/APIController/post_message.php" />
+        <option value="$PROJECT_DIR$/Resources/scripts.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Resources/css/styles.css" />
+        <option value="$PROJECT_DIR$/lessonView.php" />
+        <option value="$PROJECT_DIR$/Resources/js/scripts.js" />
+        <option value="$PROJECT_DIR$/Controllers/LessonController.php" />
       </list>
     </option>
   </component>
@@ -172,6 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,6 +221,10 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -214,7 +236,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GCM" />
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schedule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schedule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,23 +272,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schedule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schedule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="APIController" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -262,12 +287,13 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/APIController" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Resources" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/js" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/APIController" />
       <recent name="$PROJECT_DIR$/Resources" />
     </key>
   </component>
@@ -318,7 +344,7 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15588723" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13709232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21214713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -355,13 +381,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/APIController/get_all_lessons_by_grp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/LessonController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -557,24 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57871395">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/basic.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.710643">
           <caret line="144" column="9" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9778271">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -589,20 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.357058">
           <caret line="327" column="16" selection-start-line="327" selection-start-column="14" selection-end-line="327" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessonView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6984479">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/LessonController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.518847">
-          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -621,14 +612,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/9a5ec426/a8d2d0de-ce7a-4d14-a431-9e0e4eddea26/schedule.message">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -699,7 +690,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/APIController/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.67849225">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
           <folding>
             <marker date="1459684792113" expanded="true" signature="197:242" placeholder="SELECT id FR... grps" />
@@ -723,25 +714,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APIController/post_message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.079822615">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1459960321008" expanded="true" signature="295:340" placeholder="SELECT id FR... grps" />
+            <marker date="1459960321008" expanded="true" signature="639:762" placeholder="SELECT id FR... grps" />
+            <marker date="1459960321008" expanded="true" signature="696:760" placeholder="SELECT grp_i... gcm_users" />
+            <marker date="1459960321008" expanded="true" signature="779:910" placeholder="SELECT gcm_r... gcm_users" />
+            <marker date="1459960321008" expanded="true" signature="853:908" placeholder="SELECT grp_i... gcm_users" />
+            <marker date="1459960321008" expanded="true" signature="1286:1337" placeholder="SELECT id FR... gcm_users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GCM/GCM.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.0">
+        <state vertical-scroll-proportion="0.34146342">
           <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APIController/post_message.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.518847">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        <state vertical-scroll-proportion="11.259259">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding>
-            <marker date="1459880972872" expanded="true" signature="338:383" placeholder="SELECT id FR... grps" />
-            <marker date="1459880972872" expanded="true" signature="682:805" placeholder="SELECT id FR... grps" />
-            <marker date="1459880972872" expanded="true" signature="739:803" placeholder="SELECT grp_i... gcm_users" />
-            <marker date="1459880972872" expanded="true" signature="822:953" placeholder="SELECT gcm_r... gcm_users" />
-            <marker date="1459880972872" expanded="true" signature="896:951" placeholder="SELECT grp_i... gcm_users" />
-            <marker date="1459880972872" expanded="true" signature="1329:1380" placeholder="SELECT id FR... gcm_users" />
+            <marker date="1459960522615" expanded="true" signature="50:68" placeholder="SELECT * FRO... grps" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.666666">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding>
+            <marker date="1459962964108" expanded="true" signature="626:753" placeholder="..." />
+            <marker date="1459962964108" expanded="true" signature="626:754" placeholder="..." />
+            <marker date="1459962964108" expanded="true" signature="816:939" placeholder="..." />
+            <marker date="1459962964108" expanded="true" signature="1001:1127" placeholder="..." />
+            <marker date="1459962964108" expanded="true" signature="1340:1473" placeholder="..." />
+            <marker date="1459962964108" expanded="true" signature="1535:1664" placeholder="..." />
+            <marker date="1459962964108" expanded="true" signature="1726:1856" placeholder="..." />
+            <marker date="1459962964108" expanded="true" signature="2070:2205" placeholder="..." />
+            <marker date="1459962964108" expanded="true" signature="2267:2396" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessonView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/LessonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32150775">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <folding>
+            <marker date="1459963163771" expanded="true" signature="1016:1067" placeholder="SELECT versi... grps" />
+            <marker date="1459963163771" expanded="true" signature="1202:1263" placeholder="UPDATE grps " />
+            <marker date="1459963163771" expanded="true" signature="1313:1347" placeholder="SELECT MAX(i... lessons" />
           </folding>
         </state>
       </provider>

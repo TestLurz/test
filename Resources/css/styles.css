@@ -29,3 +29,17 @@
 .submitRowLesson  > button {
     width: 150px;
 }
+
+.bottom-line {
+    padding: 15px;
+    border-bottom: dashed #898989 1px;
+}
+
+#endOfBlocks {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#addNewLessons, #deleteNewLessons {
+    cursor: pointer;
+}

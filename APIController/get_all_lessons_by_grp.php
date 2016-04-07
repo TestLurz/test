@@ -4,6 +4,7 @@ require_once '../DBConnection.php';
 
 
 $response = array();
+header('Content-Type: text/html; charset=utf-8');
 
 
 if (isset($_GET["grp"])) {
@@ -28,7 +29,6 @@ if (isset($_GET["grp"])) {
     while ($row = $stmt->fetch()) {
         $i++;
         $lesson = array();
-//        echo $grp;
         $idLesson = $lesson["id"] = $row["id"];
         $lesson["teacher"] = $row["teacher"];
         $lesson["subGrp"] = $row["sub_group"];
